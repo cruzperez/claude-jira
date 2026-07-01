@@ -8,7 +8,7 @@ Construir una herramienta tipo Mini Jira para gestionar tareas, flujos de trabaj
 ### Stack tentativo
 - Frontend: React + TypeScript
 - Backend: Node.js con API REST/GraphQL
-- Base de datos: PostgreSQL
+- Base de datos: PostgreSQL, gestionado como Supabase (BaaS) — decisión registrada en `docs/adr/001-database-selection.md`
 - Testing: Vitest/Jest
 
 ### Convenciones
